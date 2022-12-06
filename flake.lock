@@ -1,0 +1,185 @@
+{
+  "nodes": {
+    "ema": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1659886750,
+        "narHash": "sha256-ioXSQ4T8iKKNHWNWHGuM4g+yakRrTo6OIZXrlibGzwY=",
+        "owner": "srid",
+        "repo": "ema",
+        "rev": "e88a5d3e7153f8e665652886399565e11dbf7084",
+        "type": "github"
+      },
+      "original": {
+        "owner": "srid",
+        "ref": "multisite",
+        "repo": "ema",
+        "type": "github"
+      }
+    },
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1668681692,
+        "narHash": "sha256-Ht91NGdewz8IQLtWZ9LCeNXMSXHUss+9COoqu6JLmXU=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "009399224d5e398d03b22badca40a37ac85412a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1668450977,
+        "narHash": "sha256-cfLhMhnvXn6x1vPm+Jow3RiFAUSCw/l1utktCw5rVA4=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "d591857e9d7dd9ddbfba0ea02b43b927c3c0f1fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "heist-emanote": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653920837,
+        "narHash": "sha256-GUHQy909iroTNSkrk15/f1Ht9eWB3A5rF//wfRzhGy8=",
+        "owner": "srid",
+        "repo": "heist",
+        "rev": "988692ea850b3cbe966c7dc4dd26ba1d49647706",
+        "type": "github"
+      },
+      "original": {
+        "owner": "srid",
+        "ref": "emanote",
+        "repo": "heist",
+        "type": "github"
+      }
+    },
+    "multiwalk": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1667717202,
+        "narHash": "sha256-OZZGPoTR6rm0WNban9Co1G30FSxAFU5Gk3mK/pY0mKs=",
+        "owner": "lucasvreis",
+        "repo": "multiwalk",
+        "rev": "0b7dcb62ef1795f251d52f0cf9d3a832e089f8b0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lucasvreis",
+        "repo": "multiwalk",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1670235252,
+        "narHash": "sha256-5YWCit/Brz4EDT/TIwXT/5wxRxb+cz1Nls7ZodQeKiw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "543070eafe8d5e86ebaa3095fd1e568db09b9b73",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "dir": "lib",
+        "lastModified": 1665349835,
+        "narHash": "sha256-UK4urM3iN80UXQ7EaOappDzcisYIuEURFRoGQ/yPkug=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "34c5293a71ffdb2fe054eb5288adc1882c1eb0b1",
+        "type": "github"
+      },
+      "original": {
+        "dir": "lib",
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "ondim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1668800739,
+        "narHash": "sha256-LZmewWIBXx/KYySMUPF96Z4hf5ursdy65NAeoH1A2ws=",
+        "owner": "lucasvreis",
+        "repo": "ondim",
+        "rev": "2c6fa7748a96c0e2abbc5bda53d34f45a1da6911",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lucasvreis",
+        "repo": "ondim",
+        "type": "github"
+      }
+    },
+    "org-mode-hs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1668964929,
+        "narHash": "sha256-cN16f3V4COtEA9f1cqtfC0xgKmdJ9e8rCbsSzfdQMyg=",
+        "owner": "lucasvreis",
+        "repo": "org-mode-hs",
+        "rev": "82309b35001de5a98c49013e5822e3fcaaf8ccbc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lucasvreis",
+        "repo": "org-mode-hs",
+        "type": "github"
+      }
+    },
+    "org-parser": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1668964929,
+        "narHash": "sha256-cN16f3V4COtEA9f1cqtfC0xgKmdJ9e8rCbsSzfdQMyg=",
+        "owner": "lucasvreis",
+        "repo": "org-parser",
+        "rev": "82309b35001de5a98c49013e5822e3fcaaf8ccbc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lucasvreis",
+        "repo": "org-parser",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ema": "ema",
+        "flake-compat": "flake-compat",
+        "flake-parts": "flake-parts",
+        "heist-emanote": "heist-emanote",
+        "multiwalk": "multiwalk",
+        "nixpkgs": "nixpkgs",
+        "ondim": "ondim",
+        "org-mode-hs": "org-mode-hs",
+        "org-parser": "org-parser"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

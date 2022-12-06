@@ -18,6 +18,8 @@
     ondim.flake = false;
     org-mode-hs.url = "github:lucasvreis/org-mode-hs";
     org-mode-hs.flake = false;
+    multiwalk.url = "github:lucasvreis/multiwalk";
+    multiwalk.flake = false;
   };
 
   # We use flake-parts as a way to make flakes 'system-aware'
@@ -68,6 +70,7 @@
                 ema = self.callCabal2nix "ema" inputs.ema { };
                 ondim = self.callCabal2nix "ondim" inputs.ondim { };
                 org-exporters = self.callCabal2nix "org-exporters" inputs.org-mode-hs { };
+                multiwalk = self.callCabal2nix "multiwalk" inputs.multiwalk { };
               };
               modifier = drv:
                 pkgs.haskell.lib.overrideCabal drv (oa: {
