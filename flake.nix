@@ -3,8 +3,9 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     haskell-flake.url = "github:srid/haskell-flake";
+    ondim.url = "github:lucasvreis/ondim";
   };
-  outputs = inputs@{ self, nixpkgs, flake-parts, ... }:
+  outputs = inputs@{ self, nixpkgs, flake-parts, ondim, ... }:
     flake-parts.lib.mkFlake { inherit self; } {
       systems = nixpkgs.lib.systems.flakeExposed;
       imports = [ inputs.haskell-flake.flakeModule ];
@@ -12,6 +13,7 @@
         haskellProjects.default = {
           packages = {
             # You can add more than one local package here.
+            ondim = ondim;
             my-package.root = ./.;  # Assumes ./my-package.cabal
           };
           # buildTools = hp: { fourmolu = hp.fourmolu; ghcid = null; };
